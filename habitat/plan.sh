@@ -1,5 +1,5 @@
 pkg_name=dcob
-pkg_origin=chef_community_engineering
+pkg_origin=chef-hab
 pkg_description="This is a github bot to ensure every commit on a PR has the
   Signed-off-by attribution required by the Developer Certificate of Origin."
 pkg_upstream_url=https://github.com/habitat-sh/dcob
