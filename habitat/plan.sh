@@ -52,7 +52,7 @@ do_build() {
   export GIT_DIR=$PLAN_CONTEXT/../.git # appease the git command in the gemspec
   export BUNDLE_SILENCE_ROOT_WARNING=1 GEM_PATH
 
-  gem install bundler --no-ri --no-rdoc
+  gem install bundler --no-ri --no-rdoc --y
 
   bundle install --jobs "$(nproc)" --retry 5 --standalone \
     --without development \
